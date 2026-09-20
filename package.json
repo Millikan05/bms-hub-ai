@@ -1,0 +1,26 @@
+{
+  "name": "bms-hub-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI for BMS HUB",
+  "keywords": [
+    "default"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "default"
+  },
+  "license": "ISC",
+  "author": "Millikan",
+  "main": "index.js",
+  "scripts": {
+    "test": "default"
+  },
+  "dependencies": {
+    "@google/genai": "^2.23.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "openai": "^7.20.0"
+  }
+}
