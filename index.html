@@ -460,7 +460,7 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <a href="index.html" class="brand">
+            <a href="bmshubplus.netlify.app" class="brand">
                 <i class="fas fa-chevron-left"></i> BMS HUB
             </a>
             <span class="header-sub">
@@ -526,7 +526,7 @@
 
         <!-- BACK -->
         <div class="back-container">
-            <a href="index.html#courses" class="back-link">
+            <a href="bmshubplus.netlify.app" class="back-link">
                 <i class="fas fa-arrow-left"></i> Back to BMS Hub
             </a>
         </div>
@@ -559,7 +559,7 @@
             answer.style.display = "none";
 
             try {
-                const response = await fetch("http://localhost:3000/api/chat", {
+                const response = await fetch("https://bms-hub-ai.onrender.com/api/chat", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ question: question })
