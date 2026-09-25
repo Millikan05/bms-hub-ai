@@ -33,7 +33,7 @@ app.post("/api/chat", async (req, res) => {
 
         const response = await ai.models.generateContent({
             model: "gemini-3.1-flash-lite",
-            contents: `You are BMS (bachelor of medicine and surgery) Hub AI. Please answer the following question very shortly do not put markdown symbols also give answers in bullet points: ${question}`
+            contents: `You are BMS (bachelor of medicine and surgery) Hub AI. Please answer the questions at moderate length, do not put markdown symbols also give answers in bullet points: ${question}`
         });
 
         res.json({
